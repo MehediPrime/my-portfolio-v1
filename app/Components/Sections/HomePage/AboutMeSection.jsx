@@ -19,35 +19,9 @@ const AboutMeSection = () => {
   return (
     <>
       <div className="min-h-screen flex items-center">
-        <div className="max-w-6xl mx-auto lg:grid lg:grid-cols-6 grid">
-          {/* Left Side  */}
-          <div className="col-span-3 py-4 h-96 -order-1 md:order-1">
-            <div className="relative w-min -ml-9 md:ml-0">
-              <div className="w-44 h-44 md:w-64 md:h-64 bg-purple rounded-full relative top-24 left-12 flex flex-col justify-center items-center text-white">
-                <PiShareNetworkLight className="text-5xl md:text-9xl" />
-                <p className="bold mt-2 text-xl ">My Network</p>
-              </div>
-              <Link
-                href={"https://www.linkedin.com/in/mehediprime/"}
-                target="_blank"
-                className="w-32 h-32 md:w-40 md:h-40 bg-blue rounded-full relative -top-40 left-7 md:-top-64 md:left-7 flex flex-col justify-center items-center text-white cursor-pointer hover:scale-110 hover:transition-all transition-all"
-              >
-                <RxLinkedinLogo className="text-3xl md:text-6xl" />
-                <p className="bold mt-2 md:text-lg">LinkedIn</p>
-              </Link>
-              <Link
-                href={"https://github.com/MehediPrime/"}
-                target="_blank"
-                className="w-32 h-32 md:w-40 md:h-40 bg-grayDark rounded-full relative -top-44 left-48 md:-top-64 md:left-64 flex flex-col justify-center items-center text-white cursor-pointer hover:scale-110 hover:transition-all transition-all"
-              >
-                <FaGithub className="text-3xl md:text-6xl" />
-                <p className="bold mt-2 md:text-lg">Github</p>
-              </Link>
-            </div>
-          </div>
-
+        <div className="max-w-6xl mx-auto lg:grid lg:grid-cols-6">
           {/* Right Side  */}
-          <div className="col-span-3 py-4  md:order-2">
+          <div className="col-span-3 py-4 order-2">
             <div className="text-purple font-semibold -rotate-12 origin-bottom-left -ml-2">
               About Me
             </div>
@@ -90,6 +64,31 @@ const AboutMeSection = () => {
                   </div>
                 </div>
               </div>
+            </div>
+          </div>
+          {/* Left Side  */}
+          <div className="col-span-3 py-4 h-96 order-1">
+            <div className="relative w-min -ml-9 md:ml-0 ">
+              <div className="w-44 h-44 md:w-64 md:h-64 bg-purple rounded-full relative top-24 left-12 flex flex-col justify-center items-center text-white">
+                <PiShareNetworkLight className="text-5xl md:text-9xl" />
+                <p className="bold mt-2 text-xl ">My Network</p>
+              </div>
+              <Link
+                href={"https://www.linkedin.com/in/mehediprime/"}
+                target="_blank"
+                className="w-32 h-32 md:w-40 md:h-40 bg-blue rounded-full relative -top-40 left-7 md:-top-64 md:left-7 flex flex-col justify-center items-center text-white cursor-pointer hover:scale-110 hover:transition-all transition-all"
+              >
+                <RxLinkedinLogo className="text-3xl md:text-6xl" />
+                <p className="bold mt-2 md:text-lg">LinkedIn</p>
+              </Link>
+              <Link
+                href={"https://github.com/MehediPrime/"}
+                target="_blank"
+                className="w-32 h-32 md:w-40 md:h-40 bg-grayDark rounded-full relative -top-44 left-48 md:-top-64 md:left-64 flex flex-col justify-center items-center text-white cursor-pointer hover:scale-110 hover:transition-all transition-all"
+              >
+                <FaGithub className="text-3xl md:text-6xl" />
+                <p className="bold mt-2 md:text-lg">Github</p>
+              </Link>
             </div>
           </div>
         </div>
