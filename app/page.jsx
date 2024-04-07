@@ -8,31 +8,38 @@ import EducationSection from "./Components/Sections/HomePage/EducationSection";
 import BlogSection from "./Components/Sections/HomePage/BlogSection";
 import ContactMeSection from "./Components/Sections/HomePage/ContactMeSection";
 
+import { Varta } from "next/font/google";
+
+const varta = Varta({
+  subsets: ["latin"],
+  weight: ["300", "400", "500", "600", "700"],
+});
+
 const page = () => {
   return (
-    <div>
+    <div className={varta.className}>
       <div>
         <Navbar />
       </div>
-      <div>
+      <div className="px-4">
         <HeroSection />
       </div>
-      <div>
+      <div className="px-4 bg-yellow">
         <AboutMeSection />
       </div>
-      <div>
+      <div className="px-4">
         <SkillExperianceSection />
       </div>
-      <div>
+      <div className="px-4">
         <ProjectSection />
       </div>
-      <div>
+      <div className="px-4">
         <EducationSection />
       </div>
-      <div>
+      <div className="px-4">
         <BlogSection />
       </div>
-      <div>
+      <div className="px-4">
         <ContactMeSection />
       </div>
     </div>
