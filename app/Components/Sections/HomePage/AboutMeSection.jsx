@@ -25,7 +25,9 @@ const AboutMeSection = () => {
             <div className="text-purple font-semibold -rotate-12 origin-bottom-left -ml-2">
               About Me
             </div>
-            <div className="font-medium text-6xl break-words">Hey There!</div>
+            <div className="font-medium text-5xl md:text-7xl break-words">
+              Hey There!
+            </div>
             <div className="font-medium text-justify mt-4 md:mt-8">
               Hi, I&#39;m a full stack web developer from Bangladesh. I have
               deep understanding of the technologies and the processes required
@@ -59,8 +61,10 @@ const AboutMeSection = () => {
                     <p className="text-5xl mt-3">{totalMonthsPassed}+</p>
                   </div>
                   <div>
-                    <p className="font-bold text-lg">Months of Professional</p>
-                    <p className="font-bold text-4xl">Experience</p>
+                    <p className="font-bold md:text-lg">
+                      Months of Professional
+                    </p>
+                    <p className="font-bold text-3xl md:text-4xl">Experience</p>
                   </div>
                 </div>
               </div>

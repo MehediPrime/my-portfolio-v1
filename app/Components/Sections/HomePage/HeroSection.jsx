@@ -10,7 +10,7 @@ const HeroSection = () => {
           <div className="text-purple font-semibold -rotate-12 origin-bottom-left -ml-2">
             Hello!
           </div>
-          <div className="font-medium text-6xl break-words">
+          <div className="font-medium text-5xl md:text-7xl break-words">
             Full Stack Web Developer
           </div>
           <div className="flex gap-4 mt-4 lg:mt-8">
