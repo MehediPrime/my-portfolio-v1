@@ -30,7 +30,7 @@ const page = () => {
       <div className="px-4">
         <SkillExperianceSection />
       </div>
-      <div className="px-4">
+      <div className="px-4 bg-yellow">
         <ProjectSection />
       </div>
       <div className="px-4">

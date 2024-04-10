@@ -1,0 +1,13 @@
+.animate-rotate {
+  animation: rotateText 60s linear infinite;
+  font-family: "consolas";
+}
+
+@keyframes rotateText {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
