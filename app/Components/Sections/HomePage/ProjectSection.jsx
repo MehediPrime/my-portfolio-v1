@@ -70,7 +70,7 @@ const ProjectSection = () => {
             image={projectPic1}
           />
         </div>
-        <div className="absolute bottom-0 right-0 mt-2 mb-4 flex justify-end">
+        <div className="absolute bottom-0 right-0 mt-2 mb-6">
           <CircularText />
         </div>
       </div>

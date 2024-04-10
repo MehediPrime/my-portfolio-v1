@@ -32,10 +32,12 @@ const CircularText = ({
   return (
     <Link href={"#"}>
       <div
-        className={`relative w-[${outerWidthAndHeight}] h-[${outerWidthAndHeight}] rounded-full bg-transparent flex justify-center items-center `}
+        className={`relative rounded-full bg-transparent flex justify-center items-center `}
+        style={{ width: outerWidthAndHeight, height: outerWidthAndHeight }}
       >
         <div
-          className={`absolute w-[${innerWidthAndHeight}] h-[${innerWidthAndHeight}] bg-transparent rounded-full bg-cover flex justify-center items-center`}
+          className={`absolute  bg-transparent rounded-full bg-cover flex justify-center items-center`}
+          style={{ width: innerWidthAndHeight, height: innerWidthAndHeight }}
         >
           {innerText ? (
             innerText
