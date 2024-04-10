@@ -22,7 +22,7 @@ export const EducationCard = ({
 const EducationSection = () => {
   return (
     <>
-      {/* For project section ----> */}
+      {/* For education section ----> */}
       <div className="min-h-screen max-w-6xl mx-auto flex flex-col justify-center pt-8">
         {/* title */}
         <div>
