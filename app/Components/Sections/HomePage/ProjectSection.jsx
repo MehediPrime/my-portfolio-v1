@@ -38,7 +38,7 @@ const ProjectSection = () => {
   return (
     <>
       {/* For project section ----> */}
-      <div className="min-h-screen w-fit mx-auto flex justify-center items-center flex-wrap gap-x-10 gap-y-4 relative">
+      <div className="min-h-screen max-w-6xl mx-auto flex justify-between items-center flex-wrap gap-y-4 relative">
         <div className="mt-4">
           <div className="py-4">
             <div className="text-purple font-semibold -rotate-12 origin-bottom-left -ml-2">
