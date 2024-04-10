@@ -39,31 +39,31 @@ const SkillExperianceSection = () => {
                 <div className="w-16 h-16 rounded-full bg-black flex justify-center items-center">
                   <RiReactjsLine className="text-white text-4xl" />
                 </div>
-                <p className="mt-4 text-2xl font-bold">React JS</p>
+                <p className="mt-4 text-2xl font-bold">ReactJS</p>
               </div>
               <div className="min-w-44">
                 <div className="w-16 h-16 rounded-full bg-black flex justify-center items-center">
                   <TbBrandNextjs className="text-white text-4xl" />
                 </div>
-                <p className="mt-4 text-2xl font-bold">Next JS</p>
+                <p className="mt-4 text-2xl font-bold">NextJS</p>
               </div>
               <div className="min-w-44">
                 <div className="w-16 h-16 rounded-full bg-black flex justify-center items-center">
                   <TbBrandNodejs className="text-white text-4xl" />
                 </div>
-                <p className="mt-4 text-2xl font-bold">Node JS</p>
+                <p className="mt-4 text-2xl font-bold">NodeJS</p>
               </div>
               <div className="min-w-44">
                 <div className="w-16 h-16 rounded-full bg-black flex justify-center items-center">
                   <SiExpress className="text-white text-4xl" />
                 </div>
-                <p className="mt-4 text-2xl font-bold">Express JS</p>
+                <p className="mt-4 text-2xl font-bold">ExpressJS</p>
               </div>
               <div className="min-w-44">
                 <div className="w-16 h-16 rounded-full bg-black flex justify-center items-center">
                   <SiMongodb className="text-white text-4xl" />
                 </div>
-                <p className="mt-4 text-2xl font-bold">Mongo DB</p>
+                <p className="mt-4 text-2xl font-bold">MongoDB</p>
               </div>
             </div>
           </div>

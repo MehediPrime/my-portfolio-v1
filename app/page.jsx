@@ -36,10 +36,11 @@ const page = () => {
       <div className="px-4">
         <EducationSection />
       </div>
-      <div className="px-4">
+      {/* In Separeate Page  */}
+      {/* <div className="px-4">
         <BlogSection />
-      </div>
-      <div className="px-4">
+      </div> */}
+      <div className="px-4 bg-yellow">
         <ContactMeSection />
       </div>
     </div>
