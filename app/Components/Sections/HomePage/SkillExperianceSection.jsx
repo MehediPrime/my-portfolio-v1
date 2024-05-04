@@ -8,7 +8,7 @@ import { SiExpress } from "react-icons/si";
 const SkillExperianceSection = () => {
   return (
     <>
-      <div className="min-h-screen flex items-center">
+      <div className="min-h-screen flex">
         <div className="max-w-6xl mx-auto lg:grid lg:grid-cols-6">
           {/* Left Side  */}
           <div className="col-span-3 py-4">

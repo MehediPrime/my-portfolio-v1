@@ -23,7 +23,7 @@ const EducationSection = () => {
   return (
     <>
       {/* For education section ----> */}
-      <div className="min-h-screen max-w-6xl mx-auto flex flex-col justify-center pt-8">
+      <div className="min-h-screen max-w-6xl mx-auto flex flex-col pt-8">
         {/* title */}
         <div>
           <div className="text-purple font-semibold -rotate-12 origin-bottom-left -ml-2">

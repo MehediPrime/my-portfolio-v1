@@ -14,7 +14,7 @@ const NavbarTop = () => {
   ];
   return (
     <nav>
-      <div className="max-w-7xl mx-auto flex items-center justify-between h-[10vh] px-4">
+      <div className="max-w-7xl mx-auto flex items-center justify-between h-16 px-4">
         <div className="flex-shrink-0 font-bold tracking-wider text-2xl text-purple">
           MEHEDI
         </div>

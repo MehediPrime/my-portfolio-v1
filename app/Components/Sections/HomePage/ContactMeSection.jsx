@@ -15,7 +15,7 @@ const ContactMeSection = () => {
   return (
     <form name="form-contact" onSubmit={handleContactForm}>
       {/* For project section ----> */}
-      <div className="min-h-screen max-w-6xl mx-auto flex flex-wrap gap-x-16 items-center pt-8">
+      <div className="min-h-screen max-w-6xl mx-auto flex flex-wrap gap-x-16 pt-8">
         <div className="grow">
           {/* Title */}
           <div className="text-purple font-semibold -rotate-12 origin-bottom-left -ml-2">
