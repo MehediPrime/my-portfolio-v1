@@ -1,10 +1,13 @@
 import { BiSolidMessageSquareDetail } from "react-icons/bi";
 import { AiOutlineCloudDownload } from "react-icons/ai";
+import Image from "next/image";
+
+import picOne from "@/public/Image/MyPicture/picOne.png";
 
 const HeroSection = () => {
   return (
-    <div className="min-h-[90vh] flex items-center">
-      <div className="max-w-6xl mx-auto lg:grid lg:grid-cols-5">
+    <div className="min-h-[90vh] flex items-center pb-10">
+      <div className="max-w-6xl mx-auto flex flex-col-reverse lg:grid lg:grid-cols-5 items-center">
         {/* Left Side  */}
         <div className="col-span-2 py-4">
           <div className="text-purple font-semibold -rotate-12 origin-bottom-left -ml-2">
@@ -45,7 +48,18 @@ const HeroSection = () => {
         </div>
 
         {/* Right Side  */}
-        <div className="col-span-3 py-4">2 HeroSection</div>
+        <div className="col-span-3 py-4 flex items-center justify-center ">
+          <div>
+            <Image
+              src={picOne}
+              width={"auto"}
+              height={"auto"}
+              priority={true}
+              className="bg-cover md:h-96 md:w-96 h-72 w-72"
+              alt="My Picture"
+            ></Image>
+          </div>
+        </div>
       </div>
     </div>
   );
