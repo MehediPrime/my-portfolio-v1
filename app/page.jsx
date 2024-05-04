@@ -1,5 +1,5 @@
 import React from "react";
-import Navbar from "./Components/Sections/HomePage/Navbar";
+import NavbarTop from "./Components/Sections/HomePage/NavbarTop";
 import HeroSection from "./Components/Sections/HomePage/HeroSection";
 import AboutMeSection from "./Components/Sections/HomePage/AboutMeSection";
 import SkillExperianceSection from "./Components/Sections/HomePage/SkillExperianceSection";
@@ -18,29 +18,29 @@ const varta = Varta({
 const page = () => {
   return (
     <div className={varta.className}>
-      <div>
-        <Navbar />
+      <div className="sticky top-0 bg-white z-50">
+        <NavbarTop />
       </div>
-      <div className="px-4">
+      <div className="px-4" id="#home">
         <HeroSection />
       </div>
-      <div className="px-4 bg-yellow">
+      <div className="px-4 bg-yellow" id="about">
         <AboutMeSection />
       </div>
-      <div className="px-4">
+      <div className="px-4" id="skillandexperiance">
         <SkillExperianceSection />
       </div>
-      <div className="px-4 bg-yellow">
+      <div className="px-4 bg-yellow" id="projects">
         <ProjectSection />
       </div>
-      <div className="px-4">
+      <div className="px-4" id="education">
         <EducationSection />
       </div>
       {/* In Separeate Page  */}
       {/* <div className="px-4">
         <BlogSection />
       </div> */}
-      <div className="px-4 bg-yellow">
+      <div className="px-4 bg-yellow" id="contactme">
         <ContactMeSection />
       </div>
     </div>
