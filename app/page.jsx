@@ -21,7 +21,7 @@ const page = () => {
       <div className="sticky top-0 bg-white z-50">
         <NavbarTop />
       </div>
-      <div className="px-4 " id="#home">
+      <div className="px-4 pt-16" id="#home">
         <HeroSection />
       </div>
       <div className="px-4 pt-16 bg-yellow" id="about">
