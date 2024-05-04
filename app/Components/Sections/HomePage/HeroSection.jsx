@@ -55,7 +55,7 @@ const HeroSection = () => {
               width={"auto"}
               height={"auto"}
               priority={true}
-              className="bg-cover md:h-96 md:w-96 h-72 w-72"
+              className="bg-cover lg:h-[500px] lg:w-[500px] sm:h-96 sm:w-96 h-72 w-72"
               alt="My Picture"
             ></Image>
           </div>
