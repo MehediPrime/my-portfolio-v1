@@ -42,7 +42,7 @@ const ProjectSection = () => {
         <div className="mt-4">
           <div className="py-4">
             <div className="text-purple font-semibold -rotate-12 origin-bottom-left -ml-2">
-              Expertise
+              Projects
             </div>
             <div className="font-bold text-5xl md:text-7xl break-words">
               Latest
