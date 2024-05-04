@@ -6,7 +6,7 @@ import picOne from "@/public/Image/MyPicture/picOne.png";
 
 const HeroSection = () => {
   return (
-    <div className="min-h-[90vh] flex items-center pb-10">
+    <div className="min-h-[90vh] flex pb-10">
       <div className="max-w-6xl mx-auto flex flex-col-reverse lg:grid lg:grid-cols-5 items-center">
         {/* Left Side  */}
         <div className="col-span-2 py-4">

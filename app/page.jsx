@@ -21,26 +21,26 @@ const page = () => {
       <div className="sticky top-0 bg-white z-50">
         <NavbarTop />
       </div>
-      <div className="px-4 " id="#home">
+      <div className="px-4 pt-16" id="#home">
         <HeroSection />
       </div>
-      <div className="px-4 pt-[10vh] bg-yellow" id="about">
+      <div className="px-4 pt-16 bg-yellow" id="about">
         <AboutMeSection />
       </div>
-      <div className="px-4 pt-[10vh]" id="skillandexperiance">
+      <div className="px-4 pt-16" id="skillandexperiance">
         <SkillExperianceSection />
       </div>
-      <div className="px-4 pt-[10vh] bg-yellow" id="projects">
+      <div className="px-4 pt-16 bg-yellow" id="projects">
         <ProjectSection />
       </div>
-      <div className="px-4 pt-[10vh]" id="education">
+      <div className="px-4 pt-16" id="education">
         <EducationSection />
       </div>
       {/* In Separeate Page  */}
       {/* <div className="px-4">
         <BlogSection />
       </div> */}
-      <div className="px-4 pt-[10vh] bg-yellow" id="contactme">
+      <div className="px-4 pt-16 bg-yellow" id="contactme">
         <ContactMeSection />
       </div>
     </div>
