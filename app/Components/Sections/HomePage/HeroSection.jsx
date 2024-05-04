@@ -3,7 +3,7 @@ import { AiOutlineCloudDownload } from "react-icons/ai";
 
 const HeroSection = () => {
   return (
-    <div className="min-h-screen flex items-center">
+    <div className="min-h-[90vh] flex items-center">
       <div className="max-w-6xl mx-auto lg:grid lg:grid-cols-5">
         {/* Left Side  */}
         <div className="col-span-2 py-4">
