@@ -11,7 +11,7 @@ export const ProjectCard = ({
 }) => {
   return (
     <Link href={"#"}>
-      <div className="mt-14 border-t-2 border-black w-80">
+      <div className="mt-14 border-t-2 border-black w-64 md:w-80">
         <div className="flex mt-4 gap-2">
           <p className="font-bold text-3xl">{title}</p>
           <div className="w-fit">
