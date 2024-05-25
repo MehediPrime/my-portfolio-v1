@@ -1,4 +1,11 @@
 export let data = {
+  initial: {
+    titleOne: "🚀 Ahoy, Innovator!",
+    descriptionOne:
+      "Welcome aboard the Coding Ship! Set sail into the vast sea of technology. Navigate through the options on the left to discover the treasures of knowledge and skills I possess.",
+    titleTwo: "",
+    descriptionTwo: "(Click on a skill from the left side)",
+  },
   javascript: {
     titleOne: "JavaScript: A Brief Overview",
     descriptionOne:

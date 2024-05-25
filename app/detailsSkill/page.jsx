@@ -13,16 +13,17 @@ import { SiExpress } from "react-icons/si";
 import { TiHtml5 } from "react-icons/ti";
 import { FaCss3Alt } from "react-icons/fa";
 import { SiTailwindcss } from "react-icons/si";
+import { VscBracketError } from "react-icons/vsc";
 
 import { data } from "./data";
 
 const Page = () => {
   const [currentClick, setCurrentClick] = useState({
-    bgColor: "#f7e025",
-    textColor: "#000",
-    secondTextColor: "#000",
-    mode: "javascript",
-    logo: <IoLogoJavascript />,
+    bgColor: "#313638",
+    textColor: "#58c4dc",
+    secondTextColor: "#fff",
+    mode: "initial",
+    logo: <VscBracketError />,
   });
 
   return (
