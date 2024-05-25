@@ -1,15 +1,18 @@
+import Link from "next/link";
+
 import { TbBrandNextjs } from "react-icons/tb";
 import { RiReactjsLine } from "react-icons/ri";
 import { IoLogoJavascript } from "react-icons/io";
 import { TbBrandNodejs } from "react-icons/tb";
 import { SiMongodb } from "react-icons/si";
 import { SiExpress } from "react-icons/si";
+import CircularText from "../../SmallComponents/CircularText";
 
 const SkillExperianceSection = () => {
   return (
     <>
-      <div className="min-h-screen flex">
-        <div className="max-w-6xl mx-auto lg:grid lg:grid-cols-6">
+      <div className="min-h-screen flex ">
+        <div className="max-w-6xl mx-auto lg:grid lg:grid-cols-6 relative">
           {/* Left Side  */}
           <div className="col-span-3 py-4">
             <div className="text-purple font-semibold -rotate-12 origin-bottom-left -ml-2">
@@ -86,7 +89,7 @@ const SkillExperianceSection = () => {
               </div>
             </div>
 
-            <div className="mt-6 md:mt-10 border-t-2 border-t-black">
+            <div className="mt-6 md:mt-10 border-t-2 border-t-black mb-52">
               <div className="flex gap-8 items-center mt-4">
                 <div>
                   <p className="font-bold text-sm w-32">May 2023 - Sept 2023</p>
@@ -99,6 +102,16 @@ const SkillExperianceSection = () => {
                 </div>
               </div>
             </div>
+
+            <div className="absolute bottom-10 right-[20%] mt-2 mb-6">
+              <CircularText
+                circleText="View All Skills . View All Skills . "
+                link="/detailsSkill"
+              />
+            </div>
+            {/* <div className="text-purple text-5xl ">
+                <Link href={"/detailsSkill"}>See More Skills</Link>
+              </div> */}
           </div>
         </div>
       </div>

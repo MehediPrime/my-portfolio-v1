@@ -49,7 +49,12 @@ const HeroSection = () => {
 
         {/* Right Side  */}
         <div className="col-span-3 py-4 flex items-center justify-center ">
-          <div>
+          <div className="relative">
+            <p className="absolute right-0 uppercase font-bold text-lg">
+              Focus on the goal
+              <br />
+              Not the obstacles
+            </p>
             <Image
               src={picOne}
               width={"auto"}
