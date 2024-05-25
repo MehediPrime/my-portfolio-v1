@@ -28,9 +28,11 @@ const CircularText = ({
   transformOrigin = "0 75px",
   animation = true,
   innerText = false,
+  circleText = "View All Projects . View All Projects . ",
+  link = "#",
 }) => {
   return (
-    <Link href={"#"}>
+    <Link href={link}>
       <div
         className={`relative rounded-full bg-transparent flex justify-center items-center `}
         style={{ width: outerWidthAndHeight, height: outerWidthAndHeight }}
@@ -52,11 +54,10 @@ const CircularText = ({
         >
           <p className="text-lg">
             <TextCircleGenerator
-              text="View All Projects . View All Projects . "
+              text={circleText}
               transformOrigin={transformOrigin}
             />
           </p>
-          {/* <p>S M Mehedi - Full Stack Web Developer -</p> */}
         </div>
       </div>
     </Link>
